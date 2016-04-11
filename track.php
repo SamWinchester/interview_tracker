@@ -1,4 +1,4 @@
-<!-- author :Shubham Singh github : https://github.com/SamWinchester --.
+<!-- author :Shubham Singh github : https://github.com/SamWinchester -->
 <?php 
 error_reporting(0);
 $server = 'localhost';
