@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>query page</title>
+</head>
+<body>
+<form action="<?=$_SERVER['PHP_SELF'];?>" method="post">
+OUTPUT ON THE BASIS OF : <br>
+
+<select>
+	<option name="Name">NAME of the candidate</option>
+
+	<!--<optgroup name="status" label="Status of the candidate">
+	<option name="status1">REJECTED</option>
+	<option name="status2">IN PROCESS</option>
+	<option  name="status3"> ACCEPTED</option>
+	</optgroup>-->
+</select>
+
+	<button name="submit">SUBMIT</button>
+</form>
+
+</body>
+
+</html>
+<?php
+if(isset($_POST['submit'])){
+	$input=$_POST['Name'];
+	echo "You enterd ".$input;
+}
+?>

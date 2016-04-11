@@ -1,0 +1,5 @@
+name of the candidate 	 contact info 	 reffered by 	 experince 	 module 	Forwarded to HR on  	 status 	 first interview 	 interviewer 	 second  interview 	 interviewer 	GrM 	 HR 	 offer Released on  	 Tentative 	 Remarks 
+peter 	9900493435	 john 	3	 BI 	 2015-02-02 	 REJECTED 	 2016-03-03 	  	  	  	  	  	  	  	  
+vikram 	9000909090	 draek 	0	 BI 	 2016-03-02 	 ACCEPTED 	 2016-03-10 	  	 2016-03-12 	  	 2016-03-19 	 2016-03-19 	 2016-03-21 	 2016-04-01 	 will be helpful  
+xyz 	9900786565	 abc 	1	 BI 	 2016-02-02 	 ACCEPTED 	 2016-03-03 	 aaa 	 2016-03-11 	 bbb 	 2016-03-24 	 2016-03-29 	 2016-03-18 	 2016-03-31 	  
+shubham 	9900345678	 sam 	1	 BI 	 2016-04-01 	 IN-PROCESS 	 2016-04-08 	 sandesha 	 2016-04-09 	 sandesha 	  	  	  	  	  

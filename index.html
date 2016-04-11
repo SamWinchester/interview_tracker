@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<style type="text/css">
+	input{
+		width:59%;
+		margin:1px;
+		height:35px;
+		text-align:center;
+		color:black;
+
+	}
+	p{
+		margin: 1px;
+	}
+	body{
+		background: url(img/12.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+		color:white;
+		font-weight: bold;
+	}
+	form{
+		text-align: center;
+	}
+	img{
+		position: fixed;
+	}
+	h1{
+		color: red;
+	}
+	button{
+		width: 39%;
+		height: 50px;
+		background: rgb(249,51,51);
+		color: white;
+		border-radius: 10px;
+		border: 2px solid white;
+	}
+	textarea{
+		color: black;
+	}
+	</style>
+</head>
+<body class="container">
+<img src="img/bosch.png">
+<CENTER>
+<h1>OPEN REQUIREMENT TABLE </h1>
+<BR><br><br>
+<form action="change.php" method="post" class="" >
+	<div class="col-md-6">
+	<p>ENTRY DATE : <br><input type="date" name="1" class=" " placeholder="Entry Date(dd/mm/yyyy)" required></input></p>
+	<br>
+	<p>PROJECT NAME : <br><input type="text" name="2" class=" " placeholder="project name"required></input></p>
+	<br>
+	<p>SEGMENT :<br> <input type="text" name="3" class=" " placeholder="segment"required></input></p>
+	<br>
+	<p>PLATFORM : <br><input type="text" name="4" class=" " placeholder="platform"required></input></p>
+	<br>
+
+	<p> PROJECT CONTACT : <br><input type="text" name="5" class=" " placeholder="Customer project contact " required></input></p>
+	<br><p>
+	PROJECT MANAGER<br><input type="text" name="6" class=" " placeholder="project manager" required></input></p>
+	</div>
+	<div class="col-md-6" >
+	<p>
+	LOCATION : <br><input type="text" name="7" class=" " placeholder="location" required></input></p>
+	
+	<br><p>
+	EXPERINCE : <br><input type="text" name="8" class=" " placeholder="experince "></input></p>
+	<br>
+	<input style="width:12%;height:25px; "type="radio" name="9" value="Replacement">Replacement</input>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input style="width:12%;height:25px; " type="radio" name="9" value="NEW">NEW</input>
+	<br><br>
+<p>
+	REQUIRED DATE FROM : <br><input type="date" name="10" class=" " placeholder="required date from(dd/mm/yyyy)" required></input></p>
+	<br><p>REMARKS :<br>
+	<textarea rows="3" cols="32" name="11"></textarea></p>
+	<br><p>
+	ASSOCIATE NAME AFTER IPJ : <br><input type="text" class=" " placeholder="associate name after IPJ" name="12"></input></p>
+	<br>
+</div>
+<button type="submit"  >SUBMIT</button>
+</form>
+
+</CENTER>
+	
+</body>
+</html>
