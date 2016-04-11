@@ -1,3 +1,5 @@
+<!-- author :Shubham Singh github : https://github.com/SamWinchester -->
+
 
 <?php
 error_reporting(0);
